@@ -22,6 +22,7 @@
     line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 
 #hero {
@@ -94,6 +95,41 @@
     font-family: Work Sans;
     font-size: 17px;
     font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .card-container {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 17px;
+}
+
+#card-box .card {
+    max-width: 301px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.card .image-box {
+    width: 301px;
+}
+
+.card .image-box img {
+    width: 100%;
+}
+
+.card .shop {
+    background-color: rgba(82, 195, 3, 0.15);
+    padding: 9px 22px;
+    font-size: 17px;
+    font-weight: 600;
     line-height: 19px;
     letter-spacing: 0%;
     text-align: center;
